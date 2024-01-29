@@ -14,10 +14,10 @@
 <script>
     $(document).ready(function () {
         $(window).scroll(function () {
-            $(".buttom").toggleClass('scrolled', $(this).scrollTop() > 10);
+            $(".buttom").toggleClass('scrolled', $(this).scrollTop() > 20);
         })
         $(window).scroll(function () {
-            $(".top").toggleClass('hidden', $(this).scrollTop() > 10);
+            $(".top").toggleClass('hidden', $(this).scrollTop() > 20);
         })
         $(".search").click(function () {
             $(".searchBar").toggle(500);
