@@ -13,12 +13,12 @@
 </head>
 <script>
     $(document).ready(function () {
-        // $(window).scroll(function () {
-        //     $(".buttom").toggleClass('scrolled', $(this).scrollTop() > 10);
-        // })
-        // $(window).scroll(function () {
-        //     $(".top").toggleClass('hidden', $(this).scrollTop() > 10);
-        // })
+        $(window).scroll(function () {
+            $(".buttom").toggleClass('scrolled', $(this).scrollTop() > 10);
+        })
+        $(window).scroll(function () {
+            $(".top").toggleClass('hidden', $(this).scrollTop() > 10);
+        })
         $(".search").click(function () {
             $(".searchBar").toggle(500);
         })
